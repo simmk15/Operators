@@ -4,6 +4,8 @@ if char>='a' and char<='z':
 elif char>='A' and char<='Z':
     print(char+" is an ALPHABET.")
 elif char>='0' and char<='9': 
-    print(char," is a DIGIT.")
+    print("NOT AN ALPHABET!")
+    print(char, "is a DIGIT.")
 else:
+    print("NOT AN ALPHABET!")
     print(char,"is a SPECIAL CHARACTER.")
