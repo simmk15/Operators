@@ -1,0 +1,31 @@
+maths=float(input("ENTER MARKS FOR MATHS="))
+history=float(input("ENTER MARKS FOR HISTORY="))
+physics=float(input("ENTER MARKS FOR PHYSICS="))
+geography=float(input("ENTER MARKS FOR GEOGRAPHY="))
+chemistry=float(input("ENTER MARKS FOR CHEMISTRY="))
+avg=maths+history+physics+geography+chemistry/500
+print("Your average is=",avg)
+# if avg<10:
+#     print("Your grade is F")
+# elif avg>=10 and avg<30:
+#     print("Your grade is D")
+# elif avg>=30 and avg<50:
+#     print("Your grade is C")
+# elif avg>=50 and avg<65:
+#     print("Your grade is B")
+# elif avg>=65 and avg<80:
+#     print("Your grade is A")
+# elif avg>=80 and avg<100:
+#     print("Your grade is A+")
+if avg>91 and avg<=100:
+    print("A1")
+elif avg>75 and avg<=91:
+    print("A2")
+elif avg>60 and avg<=75:
+    print("B1")
+elif avg>40 and avg<=60:
+    print("B2")
+elif avg>20 and avg<=40:
+    print("C1")
+else:
+    print("Grade D")
